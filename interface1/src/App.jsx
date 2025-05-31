@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       <header>
-        {/* ... (header permanece igual) */}
+        
       </header>
 
       <section className="main-section">
