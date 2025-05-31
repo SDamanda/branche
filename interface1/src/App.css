@@ -37,8 +37,6 @@ div {
   width: 100%;
   background: var(--fundo-principal);
 }
-
-/* HEADER */
 header {
   width: 100%;
   display: flex;
@@ -117,7 +115,7 @@ nav a:hover {
   border-radius: 4px;
 }
 
-/* SEARCH BAR */
+
 .search-bar {
   margin: 32px 0 24px 0;
   display: flex;
@@ -171,3 +169,35 @@ nav a:hover {
     text-align: center;
   }
 }
+/* Novos estilos */
+.resultados {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.resultado-item {
+  background: var(--fundo-secundario);
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--borda);
+}
+
+.resultado-item h3 {
+  color: var(--coral);
+  margin-bottom: 8px;
+}
+
+.sem-resultados {
+  color: var(--cinza);
+  text-align: center;
+  margin-top: 20px;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
